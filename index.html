@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>Weather API</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css"></link>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type = "module" src = "./java.js"></script>
+<script type = "module" src = "./java2.js"></script>
+
+<body>
+
+    <header class= "jumbotron"> 
+        <h1 class= "display-3"> Weather Dashboard </h1>
+    </header>
+<div class = "row">
+<div class = "col-4">
+    <div class = "container" id = "search-panel">
+        
+        <label class = "row">Search</label>
+        <div class = "row">
+        <input id = "input"></input>
+        <button class = "btn btn-default"id = "search-button"><span class="fa fa-search"></span></button>
+        </div>
+    <div class="row">
+        <div class = "col"  id="button-list">
+        </div>
+    </div>
+</div>  
+    </div>
+<div class ="col-8">
+    <div class = "container">
+        <div class = "card" id = "Forecast">
+            <h3 id = "city-input"></h3>
+        </div>
+    </div>
+    <div class = "container">
+        <div class ="row" id = "forecast-cards">
+            <div class = "col card" id = "card">
+                <label class = "row" id = "date"></label>
+                <img class = "row" id = "image"></img>
+                <label class = "row" id = "temperature"></label>
+                <label class = "row" id = "humidity"></label>
+            </div>
+            <div class = "col card" id = "card">
+                <label class = "row" id = "date"></label>
+                <img class = "row" id = "image"></img>
+                <label class = "row" id = "temperature"></label>
+                <label class = "row" id = "humidity"></label>
+            </div>
+            <div class = "col card" id = "card">
+                <label class = "row" id = "date"></label>
+                <img class = "row" id = "image"></img>
+                <label class = "row" id = "temperature"></label>
+                <label class = "row" id = "humidity"></label>
+            </div>
+            <div class = "col card" id = "card">
+                <label class = "row" id = "date"></label>
+                <img class = "row" id = "image"></img>
+                <label class = "row" id = "temperature"></label>
+                <label class = "row" id = "humidity"></label>
+            </div>
+            <div class = "col card" id = "card">
+                <label class = "row" id = "date"></label>
+                <img class = "row" id = "image"></img>
+                <label class = "row" id = "temperature"></label>
+                <label class = "row" id = "humidity"></label>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

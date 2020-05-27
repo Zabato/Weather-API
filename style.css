@@ -1,0 +1,22 @@
+.jumbotron{
+    background-color: blue;
+    color: white;
+}
+#card {
+    background-color: blue;
+    color: white;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding: 2px 16px 2px 16px;
+}
+#card img {
+    object-fit: none;
+}
+.fa-search {
+    color: white;
+}
+#search-button {
+    background-color: blue;
+}
